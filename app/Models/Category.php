@@ -11,4 +11,9 @@ class Category extends Model
         'name',
         'priority'
     ];
+
+    function news()
+    {
+        return $this->hasMany(News::class);
+    }
 }

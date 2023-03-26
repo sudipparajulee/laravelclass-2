@@ -34,7 +34,7 @@
 
                     <a href="{{route('category.index')}}" class="block text-xl pl-4 py-2 border-b-2 border-red-300 hover:bg-blue-500 hover:text-white">Categories</a>
 
-                    <a href="" class="block text-xl pl-4 py-2 border-b-2 border-red-300 hover:bg-blue-500 hover:text-white">News</a>
+                    <a href="{{route('news.index')}}" class="block text-xl pl-4 py-2 border-b-2 border-red-300 hover:bg-blue-500 hover:text-white">News</a>
 
 
                     <form action="{{route('logout')}}" method="POST" class="block text-xl pl-4 py-2 border-b-2 border-red-300 hover:bg-blue-500 hover:text-white">
